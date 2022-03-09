@@ -214,7 +214,7 @@
                                 <div class="product product-widget-style">
                                     <div class="thumbnnail">
                                         <a href="{{ route('product.details', ['slug' => $p_product->slug]) }}" title="{{ $p_product->name }}">
-                                            <figure><img src="{{ asset('assets/images/products/' .  $p_product->image . '.jpg' ) }}" alt="{{ $p_product->name }}"></figure>
+                                            <figure><img src="{{ asset('assets/images/products/' .  $p_product->image  ) }}" alt="{{ $p_product->name }}"></figure>
                                         </a>
                                     </div>
                                     <div class="product-info">
