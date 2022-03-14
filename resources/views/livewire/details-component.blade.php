@@ -15,8 +15,8 @@
                     <div class="detail-media">
                         <div class="product-gallery">
                           <ul class="slides">
-                            <li data-thumb="{{ asset('assets/images/products/' . $product->image . '.jpg' ) }}">
-                                <img src="{{ asset('assets/images/products/' . $product->image . '.jpg' ) }}" alt="product thumbnail" />
+                            <li data-thumb="{{ asset('assets/images/products/' . $product->image  ) }}">
+                                <img src="{{ asset('assets/images/products/' . $product->image ) }}" alt="product thumbnail" />
                             </li>
                           </ul>
                         </div>
